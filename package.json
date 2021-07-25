@@ -1,0 +1,24 @@
+{
+  "name": "sigin",
+  "version": "1.0.0",
+  "description": "objectives:\r     create a React application using a token-based authentication system\r     create a mock API that will return a user token\r     build a login page that will fetch the token, and \r     check for authentication without rerouting a user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
